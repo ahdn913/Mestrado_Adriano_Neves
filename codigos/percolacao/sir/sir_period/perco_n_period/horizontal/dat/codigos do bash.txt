@@ -1,0 +1,12 @@
+fazer x vezes:
+	for I in $(seq 10000); do echo $I; ./sir_perco_100x $I ;done
+
+printar números na tela:
+	cat dat/percolacao.dat
+
+contar quantos "1" ou "0" tem em cada linha:
+	grep "^1" dat/percolacao.dat | wc -l
+
+
+
+grep "^1" dat/10000_80/percolacao_1355.dat | wc -l
